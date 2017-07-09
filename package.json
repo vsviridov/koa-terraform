@@ -1,0 +1,38 @@
+{
+  "name": "koa-terraform",
+  "version": "1.0.0",
+  "description": "terraform bindings for koa",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsviridov/koa-terraform.git"
+  },
+  "keywords": [
+    "koa",
+    "terraform",
+    "viewengine",
+    "layout",
+    "jade",
+    "pug",
+    "ejs"
+  ],
+  "author": "Vasili Sviridov <vasili@sviridov.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsviridov/koa-terraform/issues"
+  },
+  "homepage": "https://github.com/vsviridov/koa-terraform#readme",
+  "dependencies": {
+    "terraform": "^1.4.0"
+  },
+  "peerDependencies": {
+    "koa": "^2"
+  },
+  "devDependencies": {}
+}
